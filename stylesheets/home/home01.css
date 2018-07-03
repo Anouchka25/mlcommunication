@@ -1,0 +1,48 @@
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: Dexter*/
+/* Version: 1.0 Initial Release*/
+/* Author: Unbranded.*/
+/* Website: http://www.unbranded.co */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.home01 .twitter-image{
+	margin-bottom: 40px;
+}
+.home01 .twitter-image i{
+	font-size: 30px;
+  	line-height: 37px;
+    margin-bottom: 21px; 
+  	border-radius: 50%;
+  	padding: 9px 12px;
+}
+.home01 .twitter{
+	width: 80%;
+	margin: 0 auto;
+}
+.home01 .tweet_list{
+	padding-left: 0px;
+	margin-bottom: 35px;
+}
+.home01 .tweet_list li{
+	list-style: none;
+}
+.home01 .tweet_text{
+	font-size: 38px;
+	line-height: 45px;
+	display: inline-block;
+}
+.home01 .tweet_text a{
+	font-size: 26px;
+  	line-height: 31px;
+  	display: block;
+}
+.home01 .tweet_time a{
+	display: block;
+	font-size: 16px;
+  	line-height: 25px;
+  	font-weight: 700;
+}
+.home01 .tweet_list{
+	cursor: url(../../images/cursor/drag-light.png), auto;
+}
+	

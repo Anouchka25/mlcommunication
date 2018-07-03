@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CORRIDOR v1.0 - Unique and Responsive One Page HTML5 Template by Unbranded</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Trendzby Unbranded - Responsive HTML5 template">
+		<meta name="author" content="Unbranded">
+
+		<!-- Standard Favicon--> 
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+		<!-- Standard iPhone Touch Icon--> 
+		<link rel="apple-touch-icon" sizes="57x57" href="images/touchicons/apple-touch-icon-57-precomposed"/>
+		<!-- Retina iPhone Touch Icon--> 
+		<link rel="apple-touch-icon" sizes="114x114" href="assets/touchicons/apple-touch-icon-114-precomposed"/>
+		<!-- Standard iPad Touch Icon--> 
+		<link rel="apple-touch-icon" sizes="72x72" href="assets/touchicons/apple-touch-icon-72-precomposed"/>
+		<!-- Retina iPad Touch Icon--> 
+		<link rel="apple-touch-icon" sizes="144x144" href="assets/touchicons/apple-touch-icon-144-precomposed"/>
+		<!-- CSS files for plugins -->
+		<link rel="stylesheet" type="text/css" href="stylesheets/libs/custom.preloader.css">
+		<!-- Bootstrap CSS Files -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+
+		<!-- Google Web Fonts-->
+		<link href='//fonts.googleapis.com/css?family=Raleway:400,600,700,900' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,700,800' rel='stylesheet' type='text/css'>
+
+<style>
+	body{
+		background: url('preview/bg.jpg') 50% 0 fixed no-repeat;
+		overflow-x: hidden;
+		width: 100%;
+		-webkit-animation: background  10s ease-in-out 0s alternate none infinite zoom;
+        -moz-animation: background  10s ease-in-out 0s alternate none infinite zoom;
+        animation: background  10s ease-in-out 0s alternate none infinite zoom;
+	}
+	.container{
+		background: #fff;
+	}
+	.vertical-align {
+		position: relative;
+		top: 50%;
+		 -moz-transform: translateY(-50%);
+	    -o-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	    -webkit-transform: translateY(-50%);
+	    transform: translateY(-50%);
+	}
+	a{
+		outline: 0px !important;
+	}
+	a, a:hover, a:focus{
+		text-decoration: none;
+	}
+	.masthead-wrap{
+		position: relative;
+		overflow: hidden;
+	}
+	.masthead{	
+		background-size: cover;
+		text-align: center;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		
+	}
+	@-webkit-keyframes zoom {
+	    from {
+	        -webkit-transform: scale(1) rotate(0deg);
+
+	    }
+	    to {
+	        -webkit-transform: scale(1.3,1.3) rotate(1deg);
+	    }
+	}
+	.masthead-text-wrap {
+		height: inherit;
+	}
+	.masthead h1{
+		text-transform: uppercase;
+		color: #fff;
+		letter-spacing: 15px;
+		font-family: "Open Sans";
+		font-weight: 600;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.button{
+		display: inline-block;
+	}
+	.button a{
+		text-transform: uppercase;
+		padding: 10px 20px;
+		border: 2px solid #fff;
+		color: #fff;
+		display: inline-block;
+		font-family: "Montserrat";
+		font-weight: 600;
+		letter-spacing: 2px;
+	}
+	.button a:hover{
+		background: #000;
+		border-color: #000;
+	}
+	.content-head h2{
+		color: #000;
+		text-align: center;
+		font-family: "Raleway";
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 10px;
+		margin: 50px 0px 10px 0px;
+		font-size: 25px;
+	}
+	h3{
+		padding-top: 0px;
+		margin: 0px;
+		font-size: 14px;
+		line-height: 21px;
+		font-family: "Montserrat";
+		font-weight: 600;
+		color: #000;
+	}
+	.selector{
+		padding: 70px;
+		padding-bottom: 0px;
+		/*border: 1px solid;*/
+		-webkit-transition: all .8s linear;
+	    -moz-transition: all .8s linear;
+		-ms-transition: all .8s linear;
+		 -o-transition: all .8s linear;
+			transition: all .8s linear;
+	}
+	.selector div{
+		text-align: center;
+		margin-top: 20px;
+		-webkit-transition: all .8s linear;
+	    -moz-transition: all .8s linear;
+		-ms-transition: all .8s linear;
+		 -o-transition: all .8s linear;
+			transition: all .8s linear;
+	}
+	.selector img{
+		margin: 0 auto;
+		display: inline-block;
+		opacity: .9;
+		-webkit-transition: all .8s linear;
+	    -moz-transition: all .8s linear;
+		-ms-transition: all .8s linear;
+		 -o-transition: all .8s linear;
+			transition: all .8s linear;
+	}
+	.selector div{
+		position: relative;
+		padding-bottom: 3px;
+	}
+	.selector div:after{
+		content: '';
+		display: block;
+		margin: auto;
+		margin-top: 5px;
+		height: 6px;
+		width: 0px;
+		background: transparent;
+		-webkit-transition: width .5s ease, background-color .8s ease;
+	    -moz-transition: width .5s ease, background-color .8s ease;
+		-ms-transition: width .5s ease, background-color .8s ease;
+		 -o-transition: width .5s ease, background-color .8s ease;
+		transition: width .5s ease, background-color .8s ease;
+	}
+	.selector:hover{
+		background: #fff;
+	}
+	.selector:hover img{
+		opacity: 1;
+	}
+	.selector a:hover div:after{
+		width: 100%;
+		background: #FDD947;
+	}
+	.text-center {
+		text-align: center;
+	}
+	a{
+		/*color: red;*/
+		font-size: 35px;
+	}
+	.black span{
+		color: #666;
+	}
+	.blue span{
+		color: blue;
+	}
+	.black .hover-color{
+		color: #f00;
+	}
+	.black .hover-color2{
+		color: green;
+	}
+	.ae-underline { 
+		position:relative;  
+	}
+	.ae-underline:after
+	/*.ae-letter.red-letter:after*/ {
+		background:#e93a30;
+		position:absolute; 
+		left:0; 
+		bottom:-2px; 
+		height:2px; 
+		width:100%;
+		content:"";
+	 }
+</style>
+
+ <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="bootstrap/js/html5shiv.js"></script>
+      <script src="bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body class="link">
+
+	<div id="preloader">
+	  <div id="status"></div>
+	</div>
+
+<div class="whole-content">
+
+	<!-- masthead : starts -->
+	<div class="masthead-wrap">
+		<header id="masthead" class="masthead parallax"></header>
+
+		<!-- <div class="masthead-text-wrap text-center container">
+			<div class="vertical-align">
+				<h1>Visit your page</h1>
+				<div class="button"><a href="#">Purchase Now</a></div>
+			</div>
+		</div> -->
+
+	</div>	
+			
+		
+	
+	<!-- masthead : ends -->
+
+	
+	<section class="container">
+		<div class="content-box">
+			<div class="row">
+				<div class="col-md-6 selector">
+					<a href="index04.html" target="_blank">
+						<img class="preview-img img-responsive" src="preview/1.png" alt="Dexter-home01">
+						<div class="color-effect"><h3><a class="black" href="#">PARALLAX HOME-1 WITH TEXT EFFECT</a></h3></div>
+					</a>
+				</div>	
+
+				<div class="col-md-6 selector">	
+					<a href="index02.html" target="_blank">
+						<img class="preview-img img-responsive" src="preview/2.png" alt="Dexter-home02">
+						<div><h3><a class="hover-effect blue" href="">CONTENT AND IMAGE SLIDER</a></h3></div>
+					</a>
+				</div>
+
+				
+			</div>	
+
+			<div class="row">
+				<div class="col-md-6 selector">	
+					<a href="index03.html" target="_blank">
+						<img class="preview-img img-responsive" src="preview/4.png" alt="Dexter-home03">
+						<div><h3>VIDEO SHOWCASE</h3></div>
+					</a>
+				</div>
+				
+				<div class="col-md-6 selector">
+					<a href="index05.html" target="_blank">
+						<img class="preview-img img-responsive" src="preview/5.png" alt="Dexter-home04">
+						<div><h3>TEXT SLIDER WITH CIRCLE PROGRESSBAR</h3></div>
+					</a>
+				</div>	
+
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 selector">	
+					<a href="index01.html" target="_blank">
+						<img class="preview-img img-responsive" src="preview/4.png" alt="Dexter-home05">
+						<div><h3>PARALLAX HOME-2 WITH TWITTER FEED</h3></div>
+					</a>
+				</div>
+				
+				<div class="col-md-6 selector">
+					<a href="index07.html" target="_blank">
+						<img class="preview-img img-responsive" src="preview/5.png" alt="Dexter-home06">
+						<div><h3>SLIDER WITH TEXT EFFECT</h3></div>
+					</a>
+				</div>	
+
+			</div>
+			<div class="row">
+				<div class="col-md-6 selector">	
+					<a href="index06.html" target="_blank">
+						<img class="preview-img img-responsive" src="preview/4.png" alt="Dexter-home07">
+						<div><h3>YUTUBE VIDEO HOME</h3></div>
+					</a>
+				</div>
+				
+				<div class="col-md-6 selector">
+					<a href="index08.html" target="_blank">
+						<img class="preview-img img-responsive" src="preview/5.png" alt="Dexter-home08">
+						<div><h3>VIMEO VIDEO HOME</h3></div>
+					</a>
+				</div>	
+
+			</div>
+			<div class="row">
+				<div class="col-md-6 selector">	
+					<a href="index09.html" target="_blank">
+						<img class="preview-img img-responsive" src="preview/4.png" alt="Dexter-home09">
+						<div><h3>YUTUBE VIDEO HOME</h3></div>
+					</a>
+				</div>
+				
+				<div class="col-md-6 selector">
+					<a href="index10.html" target="_blank">
+						<img class="preview-img img-responsive" src="preview/5.png" alt="Dexter-home10">
+						<div><h3>VIMEO VIDEO HOME</h3></div>
+					</a>
+				</div>	
+
+			</div>
+		</div>	
+	</section>
+
+</div>
+
+	<!-- Core JS Libraries -->
+	<script src="javascripts/libs/jquery-1.11.2.min.js"></script>
+	<script src="javascripts/libs/jquery.easing.1.3.js"></script>
+	<script src="javascripts/libs/custom.preloader.js"></script>
+	<script src="javascripts/libs/parallax-1.1.3.js"></script>
+	<script src="javascripts/test.js"></script>
+	<script src="javascripts/libs/device.min.js"></script>
+	<script src="javascripts/parallax-init.js"></script>
+	
+
+	<script>
+	$(document).ready(function (){
+		win_ht = $(window).height();
+		$('.masthead').css('height', win_ht-200);
+		$('.masthead-text-wrap').css('height', win_ht-200);
+	});
+
+	</script>
+
+</body>
+</html>	
+

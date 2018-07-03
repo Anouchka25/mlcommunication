@@ -1,0 +1,79 @@
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: Dexter*/
+/* Version: 1.0 Initial Release*/
+/* Author: Unbranded.*/
+/* Website: http://www.unbranded.co */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.home04{
+	background: url(images/FullSizeRender1920X950.jpg) 0 50% fixed no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.home04-text{
+	padding-left: 10%;	
+}
+.home04-text h1{
+	font-size: 90px;
+	line-height: 97px;
+	font-weight: 700;
+}
+.home04-text .cd-headline.clip span{
+	padding: 0px;
+}
+.mouse-icon{
+	position: absolute;
+	left: 50%;
+	bottom: 15%;
+	display: inline-block;
+	width: 25px;
+	height: 40px;
+	border: 2px solid;
+	border-radius: 15px;
+	cursor: pointer;
+	margin: 0 auto;
+}
+.mouse-icon .wheel{
+	position: relative;
+	width: 6px;
+	height: 9px;
+	border-radius: 50%;
+	top: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	/* Chrome, Safari, Opera */
+	-webkit-animation-name:myfirst;
+	-webkit-animation-duration:1s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:0s;
+	-webkit-animation-iteration-count:infinite;
+	
+	-webkit-animation-play-state:running;
+	/* Standard syntax */
+	animation-name:myfirst;
+	animation-duration:1s;
+	animation-timing-function:linear;
+	animation-delay:0s;
+	animation-iteration-count:infinite;
+	
+	animation-play-state:running;
+}
+
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes myfirst
+	{
+	0%   { top:4px;opacity: 0;}
+	30% { top:9px;opacity: 1;}
+	100% { top:25px;opacity: 0;}
+	}
+
+	/* Standard syntax */
+	@keyframes myfirst
+	{
+	0%   { top:4px;opacity: 0;}
+	30% { top:9px;opacity: 1;}
+	100% { top:25px;opacity: 0;}
+	}

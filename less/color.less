@@ -1,0 +1,852 @@
+@color:#F49304;
+@colorSub:#F89DB0;
+@colorLight:#EFEFEF;
+@dark:#000000;
+@black:#121212;
+@white:#FFFFFF;
+@silver:#F1F1F1;
+@grey:#B1AEAE;
+@darkGrey:#2E2E2E;
+@colorTrans: rgba(244,147,4,0.8);
+
+.white{
+	color:@white;
+}
+.silver{
+	color:@silver;
+}
+.dark{
+	color:@dark;
+}
+.black{
+	color:@black
+}
+.grey{
+	color:@grey ;
+}
+.darkGrey{
+	color:@darkGrey
+}
+.color{
+	color:@color;
+}
+.colorLight{
+	color:@colorLight;
+}
+.color-sub{
+	color:@colorSub;
+}
+
+.white-bg{
+	background-color:@white;
+}
+.silver-bg{
+	background-color:@silver;
+}
+.dark-bg{
+	background-color:@dark;
+}
+.black-bg{
+	background-color:@black;
+}
+.grey-bg{
+	background-color:@grey;
+}
+.darkGrey-bg{
+	background-color:@darkGrey;
+}
+.color-bg{
+	background-color:@color;
+}
+.colorLight-bg{
+	background-color:@colorLight;
+}
+.colorSub-bg{
+	background-color:@colorSub;
+}
+.colorTrans-bg{
+	background-color:@colorTrans;
+}
+
+p{
+	color: @dark;
+}
+.header-fix{
+	background-color: @grey;
+}
+
+.theme-color.btn{
+  color: @color;
+  border-color: @color;
+}
+.theme-color.btn::after{
+  background: @color;
+}
+.theme-color.button-style1:hover,
+.theme-color.button-style1:active{
+  color: @white;
+}
+
+.light-color.btn{
+  color: @white;
+  border-color: @white;
+}
+.light-color.btn::after{
+  background: @white;
+}
+.light-color.button-style1:hover,
+.light-color.button-style1:active{
+  color: @color;
+}
+
+.dark-color.btn{
+  color: @dark;
+  border-color: @dark;
+}
+.dark-color.btn::after{
+  background: @color;
+}
+.dark-color.button-style1:hover,
+.dark-color.button-style1:active{
+  color: @white;
+}
+
+.theme-color.button-style2{
+	background-color: @white;
+	color: @color;
+	border-color: @color;
+}
+.theme-color.button-style2:hover, .button-style2:active {
+	color: @white;
+	border-color: @color;
+	background-color: @white;
+}
+.theme-color.button-style2:hover::before {
+	background-color: @color;
+}	
+
+.light-color.button-style2{
+	background-color: @color;
+	color: @white;
+	border-color: @white;
+}
+.light-color.button-style2:hover, .button-style2:active {
+	background-color: @color;
+	color: @color;
+	border-color: @dark;
+}
+.light-color.button-style2:hover::before {
+	background-color: @white;
+}
+
+.dark-color.button-style2{
+	background-color: @white;
+	color: @dark;
+	border-color: @dark;
+}
+.dark-color.button-style2:hover, .button-style2:active {
+	background-color: @white;
+	color: @white;
+	border-color: @color;
+}
+.dark-color.button-style2:hover::before {
+	background-color: @color;
+}
+
+.theme-color.button-style3 {
+	background: @color;
+	color: @white;
+}	
+.theme-color.button-style3::before {
+	background: @colorSub;
+}
+.theme-color.button-style3::after {
+	background: @white;
+}
+.theme-color.button-style3:hover {
+	color: @color;
+}
+
+.light-color.button-style3 {
+	background: @white;
+	color: @color;
+}	
+.light-color.button-style3::before {
+	background: @colorSub;
+}
+.light-color.button-style3::after {
+	background: @color;
+}
+.light-color.button-style3:hover {
+	color: @white;
+}
+
+.dark-color.button-style3 {
+	background: @dark;
+	color: @white;
+}	
+.dark-color.button-style3::before {
+	background: @colorSub;
+}
+.dark-color.button-style3::after {
+	background: @white;
+}
+.dark-color.button-style3:hover {
+	color: @color;
+}
+
+.section-header-name{
+	color: @white;
+}
+.section-header-text{
+	color: @white;	
+}
+.active-nav{
+	color: @color !important;
+}
+.active-nav-mobile{
+	background-color: @color !important;
+	color: @white !important;
+}
+.featherlight .featherlight-close-icon{
+	background: @white;
+}
+.slant-type1 path {
+	fill: @silver;
+	stroke: @silver;
+}
+.slant-type2 path {
+	fill: @white;
+	stroke: @white;
+}
+.slant-type3 path {
+	fill: @dark;
+	stroke: @dark;
+}
+::-moz-selection { /* Code for Firefox */
+    color: @white;
+    background-color: @color;
+}
+::selection {
+    color: @white;
+    background-color: @color;
+}
+
+.cd-panel-content{
+	background-color: rgba(0,0,0,0.8);
+}
+.menu-panel ul li a{
+	color: @white;
+}
+.menu-panel ul li a.main-link:hover{
+	color: @white;
+	background-color: @color;
+}
+.sub-menu-item a:hover{
+	color: @color;
+}
+.main-menu-item a{
+	color: @white;
+}
+.main-menu-item i{
+	color: @white;
+}
+.main-menu-item a:hover{
+	color: @color;
+}
+.main-menu-item a:hover i{
+	color: @color;
+}
+.sub-menu.parent a{
+	color: @white !important;
+	background-color: @dark;
+}
+.sub-menu.parent a:hover{
+	color: @color !important;
+	background-color: @darkGrey;
+}
+.sub-menu.child a{
+	color: @white !important;
+	background-color: @darkGrey;
+}
+.sub-menu.child a:hover{
+	color: @white;
+	background-color: @grey;
+}
+.sub-menu .has-sub-menu a:hover{
+	color: @color;
+}
+.sub-menu .has-sub-menu a:hover i{
+	color: @color;
+}
+.sub-menu .inner-arrow{
+	border-bottom-color: @dark;
+}
+.mobile-nav-wrap{
+	background-color: @white;
+}
+#mobile-nav-trigger{
+	background-color: rgba(0,0,0,0.5);
+}
+.mobile-nav-wrap ul li i{
+	color: @dark;
+}
+.mobile-nav a{
+	background-color: @white;
+	color: @grey;
+}
+.mobile-nav a:hover{
+	background-color: @color;
+	color: @white;
+}
+.mobile-sub-menu li a{
+	background-color: rgba(0,0,0,0.3);
+	color: @white;
+}
+.header-fix{
+	background-color: @colorLight;
+}
+.header-fix .main-menu-item i{
+	color: @dark;
+}
+.header-social-icons span{
+	color: @grey;
+}
+.header-social-icons a:hover span{
+	color: @color;
+}
+.main-header.header-fix .main-menu-item a{
+	color: @grey;
+}
+.main-header.header-fix .main-menu-item a:hover{
+	color: @color;
+}
+
+.home01 .full-height{
+	background-color: rgba(0,0,0,0.5);
+}
+.home01 .twitter-image i{
+	color: @white;
+  	background-color: @color;
+}
+.home01 .twitter-handle span{
+	color: @white;
+}
+.home01 .tweet_text{
+	color: @white;
+}
+.home01 .tweet_text a{
+	color: @color;
+}
+.home01 .tweet_time a{
+	color: @color;
+}
+.home02-text h4{
+	background-color: @white;
+  	color: @color;
+}
+.home02-text h1 a{
+  	color: @white;
+}
+.home02 h1 a:hover{
+	color: @color;
+}
+.home02-slider.owl-theme .owl-controls .owl-nav div{
+	background-color: rgba(0,0,0,0.3);
+	color: @dark
+}
+.home02-slider.owl-theme .owl-controls .owl-nav div:hover{
+	color: @color;
+}
+.home03-text h1{
+	color: @color;
+	background-color: @white;
+}
+.home03-text h3{
+	color: @white;
+}
+.home03-slider.owl-theme .owl-controls .owl-nav div i{
+	color: @white;
+}
+.home03-slider.owl-theme .owl-controls .owl-nav div:hover i{
+	color: @color;
+}
+.home04 .overlay{
+	background-color: rgba(0,0,0,.5);
+}
+.home04-text h1{
+	color: @white;
+}
+.home04-text .cd-words-wrapper{
+	color: @color;
+}
+.home04 .mouse-icon{
+	border-color: @white;
+}
+.home04 .mouse-icon .wheel{
+	background-color: @color;
+}
+.home05-text h1{
+	color: @white;
+}
+.home05-text h4{
+	color: @white;
+}
+.home05-slider.owl-theme .owl-dots .owl-dot span{
+	background-color: @dark;
+}
+.home05-slider.owl-theme .owl-dots .owl-dot.active span{
+	background-color: @color;
+}
+.home06-text h4{
+	color: @color;
+}
+.home06-text h4 span{
+	color: @color;
+}
+.home06-text h1{
+	color: @white;
+}
+.home07-text a{
+	color: @white;
+}
+.home07-text span{
+	color: @white;
+}
+.home07-text02 a:hover{
+	color: @color;
+}
+.home07-text01 h5{
+	background-color: @color;
+	color: @white;
+}
+.home07-slant-left path{
+	fill: rgba(255,255,255,0.5);
+	stroke: rgba(255,255,255,0.5);
+}
+.home07-slant-right path{
+	fill: rgba(255,255,255,0.5);
+	stroke: rgba(255,255,255,0.5);
+}
+.home08-text h5{
+	color: @white;
+}
+.home09 .overlay{
+  background: rgba(255,255,255,0.8);
+}
+.home09-text span{
+	color: @color;
+}
+.home09-text p{
+	color: @color;
+	border-color: @color;
+}
+.home09-slider.owl-theme .owl-controls .owl-nav div i{
+	color: @color;
+}
+.home09-slider.owl-theme .owl-controls .owl-nav div:hover i{
+	color: @dark;
+}
+.home10-text-content{
+	background-color: @white;
+}
+.home10-slider.owl-theme .owl-controls .owl-dots .owl-dot:hover span{
+	background-color: @color;
+}
+.home10-slider.owl-theme .owl-controls .owl-dots .owl-dot.active span{
+	background-color: @white;
+}
+
+.about-content{
+	background-color: @white;
+}
+.about-image-overlay{
+	background-color: rgba(46,46,46,0.3);
+}
+.about-image h1{
+	color: @colorLight;
+}
+.about-image h1 b{
+	color: @color;
+}
+.about-image a{
+	color: @color;
+}
+.about-image a:hover{
+	color: @dark;
+}
+.about-text-content h2{
+	color: @color;
+}
+.about-text-content h2::after{
+	background-color: @colorLight;
+}
+.about-text-content p{
+	color: @grey;
+}
+.about-icon{
+	background-color: @silver;
+}
+.progress-circle-item-wrap p{
+	color: @darkGrey;
+}
+
+.clients{
+	background-color: @silver;
+}
+.client-slider.owl-theme .owl-controls .owl-nav div i{
+	color: @dark;
+}
+.client-slider.owl-theme .owl-controls .owl-nav div i:hover{
+	color: @color;
+}
+
+.services-content{
+	background-color: @white;
+}
+.services-content-image span{
+	color: @color;
+}
+.services-content-name{
+	color: @dark;
+}
+.services-content-text p{
+	color: @dark;
+}
+.services-content-item:hover{
+	background-color: @color;
+	color: @white;
+	border-color: @dark;
+}
+.services-content-item:hover span{
+	color: @white;
+}
+.services-content-item:hover p{
+	color: @white;
+}
+.services-content-item:hover .services-content-name{
+	color: @white;
+}
+.services-read-more span{
+	color: @white;
+}
+.services-read-more span:hover{
+	color: @dark;
+}
+
+.testimonial-text h4{
+	color: @color;
+}
+.testimonial-text h4:after{
+	background-color: @color;
+}
+.testimonial-slider.owl-theme .owl-dots .owl-dot span{
+	background-color: @darkGrey;
+}
+.testimonial-slider.owl-theme .owl-dots .owl-dot.active span{
+	background-color: @color;
+}
+.mini-portfolio-item-overlay .overlay-text p{
+	border-color: @white;
+	color: @white;
+}
+.mini-portfolio-item-overlay .overlay-text p:hover{
+	border-color: @dark;
+	background-color: @dark;
+	color: @white;
+}
+.mini-portfolio-item::before{
+	background-color: @color;
+}
+
+.team{
+	background-color: @white;
+}
+.team-text h3{
+	color: @color;
+}
+.team-text p{
+	color: @grey;	
+}
+.team-info span{
+	color: @color;
+}
+.team-text .social-icons span{
+	color: @color;
+}
+.team-text .social-icons a:hover span{
+	color: @dark;
+}
+.team-slider-control{
+	background-color: @dark;
+}
+
+.portfolio-content{
+	background-color: @white;
+}
+.portfolio-filter-nav ul li a{
+	color: @grey;
+}
+.portfolio-filter-nav ul li a:hover{
+	color: @color;
+}
+.portfolio-filter-nav ul li a.active{
+	color: @color;
+}
+.portfolio-item::before{
+	border-color: @color;
+}
+.portfolio-item-mask p{
+	background-color: @color;
+	color: @white;
+}
+.portfolio-item-mask h5{
+	color: @white;
+}
+.portfolio-item:hover .portfolio-item-mask{
+	background-color: @dark;
+}
+
+.blog-content{
+	background-color: @white;
+}
+.trigger-wrap{
+	background-color: @color;
+}
+.blog-caption{
+	color: @white;
+}
+.blog-item-overlay{
+	background-color: @colorLight;
+}
+.blog-item-overlay .blog-overlay-caption h1{
+	color: @color;	
+}
+.trigger-wrap a.read-more{
+	background-color: @color;
+	color: @white;
+}
+.blog-details{
+	color: @grey;
+}
+.blog-caption .blog-details{
+	color: @white;
+}
+.blog-text p{
+	color: grey;
+}
+
+.contact-content{
+	background-color: @white;
+}
+.contact-content-item-icon div:first-child{
+	border-color: @color;
+	background-color: @white;
+}
+.contact-content-item-icon div:first-child span{
+	color: @dark;
+}
+.contact-content-item-icon div:last-child{
+	border-color: @color;
+}
+.contact-content-item-icon div:last-child span{
+	color: @white;
+}
+.contact-content-item h3{
+	color: @dark;
+}
+.contact-content h3::after{
+	background-color: @color;
+}
+.contact-content-item p{
+	color: @darkGrey;
+}
+.contact-form-wrap{
+	background-color: rgba(0,0,0,0.9);
+}
+.contact-form-trigger{
+	color: @dark;
+	border-color: @dark;
+}
+.contact-form-trigger:hover{
+	background-color: @color;
+	color: @white;
+	border-color: @color;
+}
+.contact-form-close-btn{
+	color: @dark;
+	background-color: @white;
+}
+.contact-form-close-btn:hover{
+	color: @white;
+	background-color: @color;
+}
+.contact-form{
+	background-color: @colorLight;
+	border-color: @color;
+}
+.contact-form input[type="text"]{
+	color: @dark;
+	border-color: @color;
+}
+.contact-form textarea{
+	color: @dark;
+	border-color: @color;
+}
+.contact-form button[type="submit"]{
+	color: @dark;
+	background-color: @white;
+}
+.contact-form button:hover{
+	background-color: @color;
+	color: @white;
+}
+.contact-form ::-webkit-input-placeholder{ /* WebKit browsers */
+   color: @dark;
+}
+.contact-form :-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
+   color: @dark;
+}
+.contact-form ::-moz-placeholder{ /* Mozilla Firefox 19+ */
+   color: @dark;
+}
+.contact-form :-ms-input-placeholder{ /* Internet Explorer 10+ */
+   color: @dark;
+}
+
+.footer{
+	background-color: @black;
+}
+.footer p{
+	color: @white;
+}
+.footer .social-icons span{
+	color: @white;
+	border-color: @white;
+}
+.footer .social-icons a:hover span{
+	color: @color;
+	border-color: @color;
+}
+.to-top a:hover i{
+	color: @color;
+}
+
+.error-page h1{
+	color: @color;
+}
+.error-page p{
+	color: @white;
+}
+.inner-page-header h1{
+	color: @white;
+	background-color: @color;
+}
+.inner-page-header h4{
+	color: @white;
+}
+a.inner-page-navigation{
+	color: @white;
+}
+a.inner-page-navigation:hover{
+	color: @color;
+}
+.blog-post-content{
+	background-color: @colorLight;
+}
+.blog-post-path p{
+	color: @white;
+}
+.blog-post-details p{
+	color: @white;
+}
+.blog-post blockquote p{
+	color: @color;
+}
+.page-nav a{
+	color: @dark;
+	border-color: @dark;
+}
+.page-nav a:hover{
+	color: @color;
+	border-color: @color;
+}
+.blog-post-sidebar a{
+	color: @color;
+}
+.blog-post-sidebar a:hover{
+	color: @dark;
+}
+.blog-post-sidebar p{
+	color: @dark;
+}
+.blog-post-tags a{
+	background-color: @black;
+	color: @white;
+}
+.blog-post-tags a:hover{
+	color: @color;
+}
+.blog-comments-list ul li{
+	background-color: @white;
+}
+.blog-post-share{
+	background-color: @white;
+}
+.blog-post-share a{
+	color: #fff;
+	background-color: @dark;
+}
+.blog-post-share a:hover{
+	background-color: @color;
+}
+.commentlists .comment > div{
+	background-color: @white;
+}
+.comment-reply{
+	background-color: @dark;
+}
+.comment-reply a{
+	color: @white;
+}
+.comment-reply a:hover{
+	color: @color;
+}
+.respond input[type="submit"]{
+	color: #fff;
+	background-color: @dark;
+}
+.respond input[type="submit"]:hover{
+	background-color: @color;
+}
+.inner-page-header.single-project-home{
+	padding:0px;
+}
+.inner-page-header.single-project-home h1{
+	background-color: @white;
+	color: @dark
+}
+.single-project-slider.owl-theme .owl-dots .owl-dot span{
+	background-color: @dark;
+}
+.single-project-slider.owl-theme .owl-dots .owl-dot.active span{
+	background-color: @color;
+}
+.single-project-slider.owl-theme .owl-controls .owl-nav div{
+	background-color: @dark;
+}
+.single-project-slider.owl-theme .owl-controls .owl-nav div i{
+	color: @white;
+}
+.single-project-slider.owl-theme .owl-controls .owl-nav div:hover i{
+	color: @color;
+}
+.more-projects-item .overlay{
+	background-color: rgba(255,29,77,0);;
+}
+.more-projects-item:hover .overlay{
+	background-color: rgba(255,29,77,0.8);;
+}
+.more-projects-item .overlay h4{
+	color: @white;
+}

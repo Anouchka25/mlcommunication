@@ -1,0 +1,138 @@
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: Dexter*/
+/* Version: 1.0 Initial Release*/
+/* Author: Unbranded.*/
+/* Website: http://www.unbranded.co */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.home02-slider .item01{
+	background: url(images/FullSizeRender1920X950.jpg);
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.home02-slider .item02{
+	background: url(images/FullSizeRender1920X950.jpg);
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.home02-slider .item03{
+	background: url(images/FullSizeRender1920X950.jpg);
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.home02-slider .item04{
+	background: url(images/FullSizeRender1920X950.jpg);
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.home02-text{
+	padding-left: 10%;
+	opacity: 0;
+	-webkit-transition: all .5s linear;
+	   -moz-transition: all .5s linear;
+		-ms-transition: all .5s linear;
+		 -o-transition: all .5s linear;
+			transition: all .5s linear;
+}
+.home02-text .cap-text-1, .home02-text .cap-text-2{
+	padding-left: 0%;
+	-webkit-transition: all 7s linear;
+	   -moz-transition: all 7s linear;
+		-ms-transition: all 7s linear;
+		 -o-transition: all 7s linear;
+			transition: all 7s linear;
+}
+.home02-text h4{
+  	font-size: 18px;
+  	line-height: 25px;
+  	text-transform: uppercase;
+  	letter-spacing: 16px;
+  	display: inline-block;
+  	padding: 5px 15px;
+  	padding-left: 31px;
+  	margin-bottom: 0px;
+  	font-weight: 900; 	
+}
+.home02-text h1 a{
+    font-size: 120px;
+  	line-height: 127px;
+  	background: transparent;
+  	text-transform: uppercase;
+  	letter-spacing: -3px;
+  	display: inline-block;
+ 	margin-top: 0px;
+ 	margin-bottom: -25px; 
+  	font-weight: 700;
+  	-webkit-transition: color 1s ease-in-out;
+	   -moz-transition: color 1s ease-in-out;
+		-ms-transition: color 1s ease-in-out;
+		 -o-transition: color 1s ease-in-out;
+			transition: color 1s ease-in-out;
+}
+.home02-slider .owl-theme .owl-controls{
+	margin-top: 0px;
+	text-align: center;
+}
+.home02-slider .owl-item.active .home02-text{
+	opacity: 1;
+}
+.home02-slider .owl-item.active .home02-text .cap-text-1, .home02-slider .owl-item.active .home02-text .cap-text-2{
+	padding-left: 5%;
+}
+.home02-slider.owl-theme .owl-controls .owl-nav div{
+	width: 60px;
+	height: 60px;
+	margin: 0px;
+	border-radius: 50%;
+	padding: 0px;
+	position: absolute;
+	top: 50%;
+	-moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all .6s ease;
+	   -moz-transition: all .6s ease;
+		-ms-transition: all .6s ease;
+		 -o-transition: all .6s ease;
+			transition: all .6s ease;
+}
+.home02-slider.owl-theme .owl-controls .owl-nav div i{
+	font-size: 25px;
+	line-height: 32px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+.home02-slider.owl-theme .owl-controls .owl-nav .owl-prev{
+	left: 25px;
+}
+.home02-slider.owl-theme .owl-controls .owl-nav .owl-next{
+	right: 25px;
+}
+.home02-slider .owl-controls{
+	display: none;
+	margin-top: 0px;
+}

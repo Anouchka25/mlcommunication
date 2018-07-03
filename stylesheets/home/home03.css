@@ -1,0 +1,119 @@
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: Dexter*/
+/* Version: 1.0 Initial Release*/
+/* Author: Unbranded.*/
+/* Website: http://www.unbranded.co */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.home03-slider .item03{
+    background: url(images/FullSizeRender1920X950.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.player .loading{
+    display: none !important;
+}
+.home03-text{
+    overflow: auto;
+    height: 120px;
+    opacity: 0;
+    -webkit-transition: all .5s linear;
+       -moz-transition: all .5s linear;
+        -ms-transition: all .5s linear;
+         -o-transition: all .5s linear;
+            transition: all .5s linear;
+}
+.home03-text h1{
+    font-size: 42px;
+    line-height: 49px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.home03-text h3{
+    font-size: 18px;
+    line-height: 25px;
+    display: inline-block;
+    letter-spacing: 21px;
+    padding-left: 21px;
+    margin-top: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.home03-text div:last-child{
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    width: 100%;
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+      -webkit-transition: all 1.5s linear;
+       -moz-transition: all 1.5s linear;
+        -ms-transition: all 1.5s linear;
+         -o-transition: all 1.5s linear;
+            transition: all 1.5s linear;
+}
+.home03-slider.owl-theme .owl-controls .owl-nav div{
+    width: 60px;
+    height: 60px;
+    margin: 0px;
+    border-radius: 0px;
+    background: transparent;
+    padding: 0px;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all .6s ease;
+       -moz-transition: all .6s ease;
+        -ms-transition: all .6s ease;
+         -o-transition: all .6s ease;
+            transition: all .6s ease;
+}
+.home03-slider.owl-theme .owl-controls .owl-nav div i{
+    font-size: 35px;
+    line-height: 42px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transition: all .6s ease-in-out;
+       -moz-transition: all .6s ease-in-out;
+        -ms-transition: all .6s ease-in-out;
+         -o-transition: all .6s ease-in-out;
+            transition: all .6s ease-in-out;
+}
+.home03-slider.owl-theme .owl-controls .owl-nav .owl-prev{
+    left: 20px;
+}
+.home03-slider.owl-theme .owl-controls .owl-nav .owl-next{
+    right: 20px;
+}
+.home03-slider .owl-controls{
+    display: none;
+    margin-top: 0px;
+}
+.home03-slider.owl-theme .owl-item.active .home03-text{
+    opacity: 1;
+}
+.home03-slider.owl-theme .owl-item.active .home03-text div:last-child{
+    top: 85%;
+    z-index: 1;
+}
+

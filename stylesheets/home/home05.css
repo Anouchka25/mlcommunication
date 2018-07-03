@@ -1,0 +1,105 @@
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: Dexter*/
+/* Version: 1.0 Initial Release*/
+/* Author: Unbranded.*/
+/* Website: http://www.unbranded.co */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.home05{
+	background: url(images/FullSizeRender1920X950.jpg) 0 50% fixed no-repeat;
+	position: relative; 
+	background-position: center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;	
+}
+.progressbar-wrap{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	z-index: 999;
+	 -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#progressbar{
+	width: 370px;
+	height: 370px;
+	margin: 0 auto;
+}
+.home05-slider-wrap-pos{
+	width: 100%;
+	position: absolute;
+	z-index: 1000;
+	top: 50%;
+ 	-moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.home05-slider-wrap{
+	background: url(http://placehold.it/444X474) no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	margin: 0 auto;
+	cursor: url(../../images/cursor/plus.png), auto;	
+}
+.home05-text-wrap{
+	width: inherit;
+	position: relative;
+}
+.home05-text{
+	position: absolute;
+	top: 50%;
+	-moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.home05-text h1{
+	font-size: 28px;
+  	line-height: 35px;
+	letter-spacing: 2px;
+	padding: 0px 30px;
+	padding-left: 32px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+  	font-weight: 700;
+}
+.home05-text h4{
+  	font-size: 14px;
+  	line-height: 21px;
+  	margin-bottom: 22px;
+}
+.home05-text .button{
+	border: none;
+	margin-top: 0px;
+}
+.home05-text .button{
+	font-size: 14px;
+	line-height: 21px;
+}
+.home05-slider.owl-theme .owl-dots .owl-dot span{
+	width: 12px;
+	height: 12px;
+	margin: 0px 10px;
+	margin-top: 20px;
+	opacity: 1;
+}
+.home05-text .button-wrap{
+	display: inline-block;
+	margin-top: -1px;
+}
+
+

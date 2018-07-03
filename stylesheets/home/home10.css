@@ -1,0 +1,70 @@
+.home10-text-content{
+    width: 40%;
+    float: left;
+}
+.home10-text-content .vertical-align{
+    padding: 0 10%;
+}
+.home10-slider{
+    width: 60%;
+    float: left;
+}
+.home10-text-content img{
+    margin: 0 auto;
+}
+.home10-text-content .btn{
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 25px;
+    padding: 10px 15px;
+    border: 2px solid;
+    font-weight: 600;
+}
+.home10-text-content p{
+    font-size: 16px;
+    line-height: 23px;
+    font-family: "Montserrat";
+}
+.home10-slider.owl-theme .owl-controls .owl-dots{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    -moz-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.home10-slider.owl-theme .owl-controls .owl-dots .owl-dot{
+    display: block;
+}
+.home10-slider.owl-theme .owl-controls .owl-dots .owl-dot span{
+    margin: 15px 0px;
+}
+.home10-slider.owl-theme .owl-controls .owl-dots .owl-dot:hover span{
+    opacity: 1;
+}
+.home10-slider .item01{
+    background: url(images/FullSizeRender1920X950.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.home10-slider .item02{
+    background: url(images/FullSizeRender1920X950.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.home10-slider .item03{
+    background: url(images/FullSizeRender1920X950.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+  .home10-slider .item04{
+    background: url(images/FullSizeRender1920X950.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

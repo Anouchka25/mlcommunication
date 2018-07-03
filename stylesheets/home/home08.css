@@ -1,0 +1,50 @@
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: Dexter*/
+/* Version: 1.0 Initial Release*/
+/* Author: Unbranded.*/
+/* Website: http://www.unbranded.co */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.home08{
+	background: url(images/FullSizeRender1920X950.jpg) 0 50% fixed no-repeat; 
+	background-position: center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.home08-text h5{
+	font-size: 30px;
+	line-height: 37px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	padding-left: 10px;
+	margin-top: 20px;
+	font-weight: 700; 
+    -webkit-animation: 4s ease-in-out 0s alternate none infinite spacing;
+    -moz-animation: 4s ease-in-out 0s alternate none infinite spacing; 
+    animation: 4s ease-in-out 0s alternate none infinite spacing;
+}
+
+@-webkit-keyframes spacing {
+
+	100% {
+   		 letter-spacing: 45px;
+   		 padding-left: 45px;
+		}		
+}
+@-moz-keyframes spacing {
+
+	100% {
+   		 letter-spacing: 45px;
+   		 padding-left: 45px;
+		}		
+}
+@keyframes spacing {
+
+	100% {
+   		 letter-spacing: 45px;
+   		 padding-left: 45px;
+		}		
+}
+	

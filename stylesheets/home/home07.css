@@ -1,0 +1,149 @@
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: Dexter*/
+/* Version: 1.0 Initial Release*/
+/* Author: Unbranded.*/
+/* Website: http://www.unbranded.co */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.home07-slider{
+	background: url(images/FullSizeRender1920X950.jpg);
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.home07-slider .item{
+	position: relative;
+	overflow-x: hidden;
+}
+.home07-slant-left{
+	pointer-events: none;
+	position: absolute;
+	bottom: 0px;
+	left: -100%;
+	width: 105%;
+	opacity: 0; 
+}
+.home07-slant-left path{
+	stroke-width: 0;
+}
+.home07-slant-right{
+	pointer-events: none;
+	position: absolute;
+	bottom: 0px;
+	right: -100%;
+	width: 105%;
+	opacity: 0;
+	 -webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+.home07-slant-right path{
+	stroke-width: 0;
+}
+.home07-text.vertical-align{
+	opacity: 0;
+	top: 30%;
+	-webkit-transition: all 3.5s ease-in-out .5s;
+	   -moz-transition: all 3.5s ease-in-out .5s;
+		-ms-transition: all 3.5s ease-in-out .5s;
+		 -o-transition: all 3.5s ease-in-out .5s;
+			transition: all 3.5s ease-in-out .5s;
+}
+ .home07-text01, .home07-text02{
+ 	opacity: 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 35%;
+}
+.home07-text01 .cd-words-wrapper{
+	text-align: center;
+} 
+.home07-text01 .cd-words-wrapper b.is-hidden{
+	opacity: 0;
+}
+.home07-text01 .cd-words-wrapper b.is-hidden{
+	  -webkit-animation: slide-out 0s;
+  -moz-animation: slide-out 0s;
+  animation: slide-out 0s;
+}
+.home07-text01 h5{
+	font-size: 18px;
+  	line-height: 25px;
+  	display: inline-block;
+  	text-transform: uppercase;
+  	letter-spacing: 16px;
+  	padding: 5px 30px;
+  	padding-left: 46px;
+  	opacity: 1;
+  	margin: 0 auto;
+  	margin-bottom: 20px;
+  	font-weight: 900; 
+  	-webkit-transition: all 2.5s ease-in-out .1s;
+	   -moz-transition: all 2.5s ease-in-out .1s;
+		-ms-transition: all 2.5s ease-in-out .1s;
+		 -o-transition: all 2.5s ease-in-out .1s;
+			transition: all 2.5s ease-in-out .1s;
+}
+.home07-text02 a{
+	font-size: 24px;
+  	line-height: 31px;
+  	margin-top: 0px;
+  	margin-bottom: 0px; 
+  	cursor: pointer;
+  	font-weight: 400;
+	-webkit-transition: all 1s ease-in-out;
+	   -moz-transition: all 1s ease-in-out;
+		-ms-transition: all 1s ease-in-out;
+		 -o-transition: all 1s ease-in-out;
+			transition: all 1s ease-in-out;
+}
+.home07-text02 span{
+	font-size: 30px;
+  	line-height: 37px;
+}
+.home07-slider .owl-item.active .item .home07-slant-left{
+	opacity: 1;
+	left: 0;
+	-webkit-transition: all 1.5s ease-in-out;
+	   -moz-transition: all 1.5s ease-in-out;
+		-ms-transition: all 1.5s ease-in-out;
+		 -o-transition: all 1.5s ease-in-out;
+			transition: all 1.5s ease-in-out;
+}
+.home07-slider .owl-item.active .item .home07-slant-right{
+	opacity: 1;
+	right: 0;
+	 -webkit-transition: all 1.5s ease-in-out;
+	   -moz-transition: all 1.5s ease-in-out;
+		-ms-transition: all 1.5s ease-in-out;
+		 -o-transition: all 1.5s ease-in-out;
+			transition: all 1.5s ease-in-out;
+}
+.home07-slider .owl-item.active .vertical-align{
+	opacity: 1;
+	top: 50%;
+}
+.home07-slider .owl-item.active .item .home07-text01{
+	opacity: 1;
+	-webkit-transition: all 1.5s ease-in-out 2s;
+	   -moz-transition: all 1.5s ease-in-out 2s;
+		-ms-transition: all 1.5s ease-in-out 2s;
+		 -o-transition: all 1.5s ease-in-out 2s;
+			transition: all 1.5s ease-in-out 2s;
+}
+.home07-slider .owl-item.active .item .home07-text02{
+	opacity: 1;
+	-webkit-transition: all 1.5s ease-in-out 1.5s;
+	   -moz-transition: all 1.5s ease-in-out 1.5s;
+		-ms-transition: all 1.5s ease-in-out 1.5s;
+		 -o-transition: all 1.5s ease-in-out 1.5s;
+			transition: all 1.5s ease-in-out 1.5s;
+}
+.home07-slider .owl-controls{
+	display: none;
+}
